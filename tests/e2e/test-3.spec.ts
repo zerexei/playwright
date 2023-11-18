@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 // import { expect as vtExpect, test as vtTest } from 'vitest'
 
 
-test.skip("should login and logout", async ({ page }) => {
+test("should login and logout", async ({ page }) => {
   // test.setTimeout(3000)
 
   await page.goto('/');
